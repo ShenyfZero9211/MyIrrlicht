@@ -1,6 +1,6 @@
 # MyIrrlicht
 
-这是一个高度定制化的 **Irrlicht Engine** (v1.8) 分支。
+这是一个高度定制化的 **Irrlicht Engine** (v1.9) 分支。
 
 > [!IMPORTANT]
 > **Fork 说明**：本仓库并非官方镜像，而是专门为现代 Windows 环境下的 MinGW32 构建、音频回环捕获 (Loopback) 以及实时 3D 可视化而深度修改的版本。
