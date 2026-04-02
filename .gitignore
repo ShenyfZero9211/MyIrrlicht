@@ -1,0 +1,25 @@
+# --- Exclude Executables and Libraries ---
+bin/
+lib/
+obj/
+*.exe
+*.dll
+*.o
+*.a
+*.ilk
+*.pdb
+
+# --- Exclude Captured Data ---
+projects/01.MyHelloWorld/captured_audio/
+
+# --- Exclude IDE files ---
+.vs/
+.vscode/
+
+# --- Keep Core folders ---
+!projects/
+!include/
+!source/
+!Makefile
+*.swp
+*.bak

@@ -1,0 +1,1939 @@
+﻿g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CBSPMeshFileLoader.d CBSPMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMD2MeshFileLoader.d CMD2MeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMD3MeshFileLoader.d CMD3MeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMS3DMeshFileLoader.d CMS3DMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CB3DMeshFileLoader.d CB3DMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF C3DSMeshFileLoader.d C3DSMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COgreMeshFileLoader.d COgreMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COBJMeshFileLoader.d COBJMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CColladaFileLoader.d CColladaFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CCSMLoader.d CCSMLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDMFLoader.d CDMFLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CLMTSMeshFileLoader.d CLMTSMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMY3DMeshFileLoader.d CMY3DMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COCTLoader.d COCTLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CXMeshFileLoader.d CXMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrMeshFileLoader.d CIrrMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSTLMeshFileLoader.d CSTLMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CLWOMeshFileLoader.d CLWOMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CPLYMeshFileLoader.d CPLYMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSMFMeshFileLoader.d CSMFMeshFileLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMeshTextureLoader.d CMeshTextureLoader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CColladaMeshWriter.d CColladaMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrMeshWriter.d CIrrMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSTLMeshWriter.d CSTLMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COBJMeshWriter.d COBJMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CPLYMeshWriter.d CPLYMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CB3DMeshWriter.d CB3DMeshWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSkinnedMesh.d CSkinnedMesh.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CBoneSceneNode.d CBoneSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMeshSceneNode.d CMeshSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CAnimatedMeshSceneNode.d CAnimatedMeshSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CAnimatedMeshMD2.d CAnimatedMeshMD2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CAnimatedMeshMD3.d CAnimatedMeshMD3.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CQ3LevelMesh.d CQ3LevelMesh.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CQuake3ShaderSceneNode.d CQuake3ShaderSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CAnimatedMeshHalfLife.d CAnimatedMeshHalfLife.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CBillboardSceneNode.d CBillboardSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CCameraSceneNode.d CCameraSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDummyTransformationSceneNode.d CDummyTransformationSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CEmptySceneNode.d CEmptySceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGeometryCreator.d CGeometryCreator.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CLightSceneNode.d CLightSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMeshManipulator.d CMeshManipulator.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMetaTriangleSelector.d CMetaTriangleSelector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COctreeSceneNode.d COctreeSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COctreeTriangleSelector.d COctreeTriangleSelector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneCollisionManager.d CSceneCollisionManager.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneManager.d CSceneManager.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CShadowVolumeSceneNode.d CShadowVolumeSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSkyBoxSceneNode.d CSkyBoxSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSkyDomeSceneNode.d CSkyDomeSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTerrainSceneNode.d CTerrainSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTerrainTriangleSelector.d CTerrainTriangleSelector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CVolumeLightSceneNode.d CVolumeLightSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CCubeSceneNode.d CCubeSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSphereSceneNode.d CSphereSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTextSceneNode.d CTextSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTriangleBBSelector.d CTriangleBBSelector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTriangleSelector.d CTriangleSelector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CWaterSurfaceSceneNode.d CWaterSurfaceSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMeshCache.d CMeshCache.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDefaultSceneNodeAnimatorFactory.d CDefaultSceneNodeAnimatorFactory.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDefaultSceneNodeFactory.d CDefaultSceneNodeFactory.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneLoaderIrr.d CSceneLoaderIrr.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleAnimatedMeshSceneNodeEmitter.d CParticleAnimatedMeshSceneNodeEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleBoxEmitter.d CParticleBoxEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleCylinderEmitter.d CParticleCylinderEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleMeshEmitter.d CParticleMeshEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticlePointEmitter.d CParticlePointEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleRingEmitter.d CParticleRingEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleSphereEmitter.d CParticleSphereEmitter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleAttractionAffector.d CParticleAttractionAffector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleFadeOutAffector.d CParticleFadeOutAffector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleGravityAffector.d CParticleGravityAffector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleRotationAffector.d CParticleRotationAffector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleSystemSceneNode.d CParticleSystemSceneNode.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CParticleScaleAffector.d CParticleScaleAffector.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorCameraFPS.d CSceneNodeAnimatorCameraFPS.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorCameraMaya.d CSceneNodeAnimatorCameraMaya.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorCollisionResponse.d CSceneNodeAnimatorCollisionResponse.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorDelete.d CSceneNodeAnimatorDelete.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorFlyCircle.d CSceneNodeAnimatorFlyCircle.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorFlyStraight.d CSceneNodeAnimatorFlyStraight.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorFollowSpline.d CSceneNodeAnimatorFollowSpline.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorRotation.d CSceneNodeAnimatorRotation.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSceneNodeAnimatorTexture.d CSceneNodeAnimatorTexture.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CVideoModeList.d CVideoModeList.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CFPSCounter.d CFPSCounter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CNullDriver.d CNullDriver.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLCacheHandler.d COpenGLCacheHandler.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLDriver.d COpenGLDriver.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLNormalMapRenderer.d COpenGLNormalMapRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLParallaxMapRenderer.d COpenGLParallaxMapRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLShaderMaterialRenderer.d COpenGLShaderMaterialRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLSLMaterialRenderer.d COpenGLSLMaterialRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COpenGLExtensionHandler.d COpenGLExtensionHandler.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9Driver.d CD3D9Driver.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9HLSLMaterialRenderer.d CD3D9HLSLMaterialRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9NormalMapRenderer.d CD3D9NormalMapRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9ParallaxMapRenderer.d CD3D9ParallaxMapRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9ShaderMaterialRenderer.d CD3D9ShaderMaterialRenderer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CD3D9Texture.d CD3D9Texture.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGLXManager.d CGLXManager.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CWGLManager.d CWGLManager.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CColorConverter.d CColorConverter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImage.d CImage.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderBMP.d CImageLoaderBMP.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderDDS.d CImageLoaderDDS.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderJPG.d CImageLoaderJPG.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderPCX.d CImageLoaderPCX.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderPNG.d CImageLoaderPNG.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderPSD.d CImageLoaderPSD.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderPVR.d CImageLoaderPVR.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderTGA.d CImageLoaderTGA.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderPPM.d CImageLoaderPPM.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderWAL.d CImageLoaderWAL.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageLoaderRGB.d CImageLoaderRGB.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterBMP.d CImageWriterBMP.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterJPG.d CImageWriterJPG.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterPCX.d CImageWriterPCX.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterPNG.d CImageWriterPNG.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterPPM.d CImageWriterPPM.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterPSD.d CImageWriterPSD.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CImageWriterTGA.d CImageWriterTGA.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSoftwareDriver.d CSoftwareDriver.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSoftwareTexture.d CSoftwareTexture.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRFlat.d CTRFlat.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRFlatWire.d CTRFlatWire.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRGouraud.d CTRGouraud.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRGouraudWire.d CTRGouraudWire.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRNormalMap.d CTRNormalMap.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRStencilShadow.d CTRStencilShadow.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureFlat.d CTRTextureFlat.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureFlatWire.d CTRTextureFlatWire.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraud.d CTRTextureGouraud.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudAdd.d CTRTextureGouraudAdd.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudNoZ.d CTRTextureGouraudNoZ.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudWire.d CTRTextureGouraudWire.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CZBuffer.d CZBuffer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudVertexAlpha2.d CTRTextureGouraudVertexAlpha2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudNoZ2.d CTRTextureGouraudNoZ2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureLightMap2_M2.d CTRTextureLightMap2_M2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureLightMap2_M4.d CTRTextureLightMap2_M4.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureLightMap2_M1.d CTRTextureLightMap2_M1.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSoftwareDriver2.d CSoftwareDriver2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CSoftwareTexture2.d CSoftwareTexture2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraud2.d CTRTextureGouraud2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRGouraud2.d CTRGouraud2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRGouraudAlpha2.d CTRGouraudAlpha2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRGouraudAlphaNoZ2.d CTRGouraudAlphaNoZ2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureDetailMap2.d CTRTextureDetailMap2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudAdd2.d CTRTextureGouraudAdd2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudAddNoZ2.d CTRTextureGouraudAddNoZ2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureWire2.d CTRTextureWire2.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureLightMap2_Add.d CTRTextureLightMap2_Add.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureLightMapGouraud2_M4.d CTRTextureLightMapGouraud2_M4.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF IBurningShader.d IBurningShader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureBlend.d CTRTextureBlend.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudAlpha.d CTRTextureGouraudAlpha.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTRTextureGouraudAlphaNoZ.d CTRTextureGouraudAlphaNoZ.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDepthBuffer.d CDepthBuffer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CBurningShader_Raster_Reference.d CBurningShader_Raster_Reference.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CFileList.d CFileList.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CFileSystem.d CFileSystem.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CLimitReadFile.d CLimitReadFile.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMemoryFile.d CMemoryFile.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CReadFile.d CReadFile.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CWriteFile.d CWriteFile.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CXMLReader.d CXMLReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CXMLWriter.d CXMLWriter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CWADReader.d CWADReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CZipReader.d CZipReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CPakReader.d CPakReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CNPKReader.d CNPKReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CTarReader.d CTarReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CMountPointReader.d CMountPointReader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF irrXML.d irrXML.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CAttributes.d CAttributes.cpp
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF lzma/LzmaDec.d lzma/LzmaDec.c
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceSDL.d CIrrDeviceSDL.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceLinux.d CIrrDeviceLinux.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceConsole.d CIrrDeviceConsole.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceStub.d CIrrDeviceStub.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceWin32.d CIrrDeviceWin32.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CIrrDeviceFB.d CIrrDeviceFB.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CLogger.d CLogger.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF COSOperator.d COSOperator.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF Irrlicht.d Irrlicht.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF os.d os.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF leakHunter.d leakHunter.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CProfiler.d CProfiler.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF utf8.d utf8.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIButton.d CGUIButton.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUICheckBox.d CGUICheckBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIComboBox.d CGUIComboBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIContextMenu.d CGUIContextMenu.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIEditBox.d CGUIEditBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIEnvironment.d CGUIEnvironment.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIFileOpenDialog.d CGUIFileOpenDialog.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIFont.d CGUIFont.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIImage.d CGUIImage.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIInOutFader.d CGUIInOutFader.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIListBox.d CGUIListBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIMenu.d CGUIMenu.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIMeshViewer.d CGUIMeshViewer.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIMessageBox.d CGUIMessageBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIModalScreen.d CGUIModalScreen.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIScrollBar.d CGUIScrollBar.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUISpinBox.d CGUISpinBox.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUISkin.d CGUISkin.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIStaticText.d CGUIStaticText.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUITabControl.d CGUITabControl.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUITable.d CGUITable.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIToolBar.d CGUIToolBar.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIWindow.d CGUIWindow.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIColorSelectDialog.d CGUIColorSelectDialog.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CDefaultGUIElementFactory.d CDefaultGUIElementFactory.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUISpriteBank.d CGUISpriteBank.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIImageList.d CGUIImageList.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUITreeView.d CGUITreeView.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF CGUIProfiler.d CGUIProfiler.cpp
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/adler32.d zlib/adler32.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/compress.d zlib/compress.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/crc32.d zlib/crc32.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/deflate.d zlib/deflate.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/inffast.d zlib/inffast.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/inflate.d zlib/inflate.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/inftrees.d zlib/inftrees.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/trees.d zlib/trees.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/uncompr.d zlib/uncompr.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF zlib/zutil.d zlib/zutil.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcapimin.d jpeglib/jcapimin.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcapistd.d jpeglib/jcapistd.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jccoefct.d jpeglib/jccoefct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jccolor.d jpeglib/jccolor.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcdctmgr.d jpeglib/jcdctmgr.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jchuff.d jpeglib/jchuff.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcinit.d jpeglib/jcinit.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcmainct.d jpeglib/jcmainct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcmarker.d jpeglib/jcmarker.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcmaster.d jpeglib/jcmaster.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcomapi.d jpeglib/jcomapi.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcparam.d jpeglib/jcparam.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcprepct.d jpeglib/jcprepct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcsample.d jpeglib/jcsample.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jctrans.d jpeglib/jctrans.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdapimin.d jpeglib/jdapimin.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdapistd.d jpeglib/jdapistd.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdatadst.d jpeglib/jdatadst.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdatasrc.d jpeglib/jdatasrc.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdcoefct.d jpeglib/jdcoefct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdcolor.d jpeglib/jdcolor.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jddctmgr.d jpeglib/jddctmgr.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdhuff.d jpeglib/jdhuff.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdinput.d jpeglib/jdinput.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdmainct.d jpeglib/jdmainct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdmarker.d jpeglib/jdmarker.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdmaster.d jpeglib/jdmaster.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdmerge.d jpeglib/jdmerge.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdpostct.d jpeglib/jdpostct.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdsample.d jpeglib/jdsample.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdtrans.d jpeglib/jdtrans.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jerror.d jpeglib/jerror.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jfdctflt.d jpeglib/jfdctflt.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jfdctfst.d jpeglib/jfdctfst.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jfdctint.d jpeglib/jfdctint.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jidctflt.d jpeglib/jidctflt.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jidctfst.d jpeglib/jidctfst.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jidctint.d jpeglib/jidctint.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jmemmgr.d jpeglib/jmemmgr.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jmemnobs.d jpeglib/jmemnobs.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jquant1.d jpeglib/jquant1.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jquant2.d jpeglib/jquant2.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jutils.d jpeglib/jutils.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jcarith.d jpeglib/jcarith.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jdarith.d jpeglib/jdarith.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF jpeglib/jaricom.d jpeglib/jaricom.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/png.d libpng/png.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngerror.d libpng/pngerror.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngget.d libpng/pngget.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngmem.d libpng/pngmem.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngpread.d libpng/pngpread.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngread.d libpng/pngread.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngrio.d libpng/pngrio.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngrtran.d libpng/pngrtran.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngrutil.d libpng/pngrutil.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngset.d libpng/pngset.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngtrans.d libpng/pngtrans.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngwio.d libpng/pngwio.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngwrite.d libpng/pngwrite.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngwtran.d libpng/pngwtran.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF libpng/pngwutil.d libpng/pngwutil.c
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/aescrypt.d aesGladman/aescrypt.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/aeskey.d aesGladman/aeskey.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/aestab.d aesGladman/aestab.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/fileenc.d aesGladman/fileenc.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/hmac.d aesGladman/hmac.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/prng.d aesGladman/prng.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/pwd2key.d aesGladman/pwd2key.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/sha1.d aesGladman/sha1.cpp
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF aesGladman/sha2.d aesGladman/sha2.cpp
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/blocksort.d bzip2/blocksort.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/huffman.d bzip2/huffman.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/crctable.d bzip2/crctable.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/randtable.d bzip2/randtable.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/bzcompress.d bzip2/bzcompress.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/decompress.d bzip2/decompress.c
+gcc -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -MM -MF bzip2/bzlib.d bzip2/bzlib.c
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CBSPMeshFileLoader.o CBSPMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMD2MeshFileLoader.o CMD2MeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMD3MeshFileLoader.o CMD3MeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMS3DMeshFileLoader.o CMS3DMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CB3DMeshFileLoader.o CB3DMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o C3DSMeshFileLoader.o C3DSMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COgreMeshFileLoader.o COgreMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COBJMeshFileLoader.o COBJMeshFileLoader.cpp
+mingw32-make : COBJMeshFileLoader.cpp: 
+In member function 'virtual irr::scene:
+:IAnimatedMesh* irr::scene::COBJMeshFil
+eLoader::createMesh(irr::io::IReadFile*
+)':
+所在位置 行:1 字符: 44
++ ... + $env:PATH; mingw32-make win32 C
+C=gcc CXX=g++ AR=ar -j4 2>&1 | Out-F ..
+.
++                  ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (COBJMeshFileLoa...::IReadFi  
+  le*)'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+COBJMeshFileLoader.cpp:87:13: warning: 
+variable 'smoothingGroup' set but not u
+sed [-Wunused-but-set-variable]
+   87 |         u32 smoothingGroup=0;
+      |             ^~~~~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CColladaFileLoader.o CColladaFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CCSMLoader.o CCSMLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDMFLoader.o CDMFLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CLMTSMeshFileLoader.o CLMTSMeshFileLoader.cpp
+In file included from CDMFLoader.cpp:32
+:
+dmfsupport.h:594:6: warning: 'bool irr:
+:scene::{anonymous}::GetDMFWaterPlanes(
+const StringList&, dmfWaterPlane*, dmfV
+ert*, dmfFace*)' defined but not used [
+-Wunused-function]
+  594 | bool GetDMFWaterPlanes(const St
+ringList& RawFile/**<StringList represe
+nting a DMF file.*/,
+      |      ^~~~~~~~~~~~~~~~~
+dmfsupport.h:510:6: warning: 'bool irr:
+:scene::{anonymous}::GetDMFLights(const
+ StringList&, dmfLight*)' defined but n
+ot used [-Wunused-function]
+  510 | bool GetDMFLights(const StringL
+ist& RawFile/**<StringList representing
+ a DMF file.*/,
+      |      ^~~~~~~~~~~~
+dmfsupport.h:362:6: warning: 'bool irr:
+:scene::{anonymous}::GetDMFWaterMateria
+ls(const StringList&, irr::core::array<
+dmfMaterial>&, int)' defined but not us
+ed [-Wunused-function]
+  362 | bool GetDMFWaterMaterials(const
+ StringList& RawFile /**<StringList rep
+resenting a DMF file.*/,
+      |      ^~~~~~~~~~~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMY3DMeshFileLoader.o CMY3DMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COCTLoader.o COCTLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CXMeshFileLoader.o CXMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrMeshFileLoader.o CIrrMeshFileLoader.cpp
+CXMeshFileLoader.cpp: In member functio
+n 'bool irr::scene::CXMeshFileLoader::p
+arseDataObjectMesh(SXMesh&)':
+CXMeshFileLoader.cpp:908:29: warning: v
+ariable 'tangentpos' set but not used [
+-Wunused-but-set-variable]
+  908 |                         s16 tan
+gentpos = -1;
+      |                             ^~~
+~~~~~~~
+CXMeshFileLoader.cpp:909:29: warning: v
+ariable 'binormalpos' set but not used 
+[-Wunused-but-set-variable]
+  909 |                         s16 bin
+ormalpos = -1;
+      |                             ^~~
+~~~~~~~~
+CXMeshFileLoader.cpp:913:29: warning: v
+ariable 'tangenttype' set but not used 
+[-Wunused-but-set-variable]
+  913 |                         s16 tan
+genttype = -1;
+      |                             ^~~
+~~~~~~~~
+CXMeshFileLoader.cpp:914:29: warning: v
+ariable 'binormaltype' set but not used
+ [-Wunused-but-set-variable]
+  914 |                         s16 bin
+ormaltype = -1;
+      |                             ^~~
+~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSTLMeshFileLoader.o CSTLMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CLWOMeshFileLoader.o CLWOMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CPLYMeshFileLoader.o CPLYMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSMFMeshFileLoader.o CSMFMeshFileLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMeshTextureLoader.o CMeshTextureLoader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CColladaMeshWriter.o CColladaMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrMeshWriter.o CIrrMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSTLMeshWriter.o CSTLMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COBJMeshWriter.o COBJMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CPLYMeshWriter.o CPLYMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CB3DMeshWriter.o CB3DMeshWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSkinnedMesh.o CSkinnedMesh.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CBoneSceneNode.o CBoneSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMeshSceneNode.o CMeshSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CAnimatedMeshSceneNode.o CAnimatedMeshSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CAnimatedMeshMD2.o CAnimatedMeshMD2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CAnimatedMeshMD3.o CAnimatedMeshMD3.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CQ3LevelMesh.o CQ3LevelMesh.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CQuake3ShaderSceneNode.o CQuake3ShaderSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CAnimatedMeshHalfLife.o CAnimatedMeshHalfLife.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CBillboardSceneNode.o CBillboardSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CCameraSceneNode.o CCameraSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDummyTransformationSceneNode.o CDummyTransformationSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CEmptySceneNode.o CEmptySceneNode.cpp
+CCameraSceneNode.cpp: In member functio
+n 'void irr::scene::CCameraSceneNode::r
+ecalculateProjectionMatrix()':
+CCameraSceneNode.cpp:237:30: warning: u
+nused variable 'driverType' [-Wunused-v
+ariable]
+  237 |         video::E_DRIVER_TYPE dr
+iverType = SceneManager->getVideoDriver
+()->getDriverType();
+      |                              ^~
+~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGeometryCreator.o CGeometryCreator.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CLightSceneNode.o CLightSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMeshManipulator.o CMeshManipulator.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMetaTriangleSelector.o CMetaTriangleSelector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COctreeSceneNode.o COctreeSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COctreeTriangleSelector.o COctreeTriangleSelector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneCollisionManager.o CSceneCollisionManager.cpp
+COctreeTriangleSelector.cpp: In member 
+function 'void irr::scene::COctreeTrian
+gleSelector::constructOctree(SOctreeNod
+e*)':
+COctreeTriangleSelector.cpp:119:31: war
+ning: 'void* memcpy(void*, const void*,
+ size_t)' writing to an object of type 
+'class irr::core::triangle3d<float>' wi
+th no trivial copy-assignment; use copy
+-assignment or copy-initialization inst
+ead [-Wclass-memaccess]
+  119 |                         memcpy(
+node->Triangles.pointer(), keepTriangle
+s.pointer(),
+      |                         ~~~~~~^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+  120 |                                
+ sizeof(core::triangle3df)*keepTriangle
+s.size());
+      |                                
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+In file included from ../../include/ITr
+iangleSelector.h:9,
+                 from CTriangleSelector
+.h:8,
+                 from COctreeTriangleSe
+lector.h:8,
+                 from COctreeTriangleSe
+lector.cpp:5:
+../../include/triangle3d.h:20:15: note:
+ 'class irr::core::triangle3d<float>' d
+eclared here
+   20 |         class triangle3d
+      |               ^~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneManager.o CSceneManager.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CShadowVolumeSceneNode.o CShadowVolumeSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSkyBoxSceneNode.o CSkyBoxSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSkyDomeSceneNode.o CSkyDomeSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTerrainSceneNode.o CTerrainSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTerrainTriangleSelector.o CTerrainTriangleSelector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CVolumeLightSceneNode.o CVolumeLightSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CCubeSceneNode.o CCubeSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSphereSceneNode.o CSphereSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTextSceneNode.o CTextSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTriangleBBSelector.o CTriangleBBSelector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTriangleSelector.o CTriangleSelector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CWaterSurfaceSceneNode.o CWaterSurfaceSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMeshCache.o CMeshCache.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDefaultSceneNodeAnimatorFactory.o CDefaultSceneNodeAnimatorFactory.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDefaultSceneNodeFactory.o CDefaultSceneNodeFactory.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneLoaderIrr.o CSceneLoaderIrr.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleAnimatedMeshSceneNodeEmitter.o CParticleAnimatedMeshSceneNodeEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleBoxEmitter.o CParticleBoxEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleCylinderEmitter.o CParticleCylinderEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleMeshEmitter.o CParticleMeshEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticlePointEmitter.o CParticlePointEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleRingEmitter.o CParticleRingEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleSphereEmitter.o CParticleSphereEmitter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleAttractionAffector.o CParticleAttractionAffector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleFadeOutAffector.o CParticleFadeOutAffector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleGravityAffector.o CParticleGravityAffector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleRotationAffector.o CParticleRotationAffector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleSystemSceneNode.o CParticleSystemSceneNode.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CParticleScaleAffector.o CParticleScaleAffector.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorCameraFPS.o CSceneNodeAnimatorCameraFPS.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorCameraMaya.o CSceneNodeAnimatorCameraMaya.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorCollisionResponse.o CSceneNodeAnimatorCollisionResponse.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorDelete.o CSceneNodeAnimatorDelete.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorFlyCircle.o CSceneNodeAnimatorFlyCircle.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorFlyStraight.o CSceneNodeAnimatorFlyStraight.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorFollowSpline.o CSceneNodeAnimatorFollowSpline.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorRotation.o CSceneNodeAnimatorRotation.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSceneNodeAnimatorTexture.o CSceneNodeAnimatorTexture.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CVideoModeList.o CVideoModeList.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CFPSCounter.o CFPSCounter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CNullDriver.o CNullDriver.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLCacheHandler.o COpenGLCacheHandler.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLDriver.o COpenGLDriver.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLNormalMapRenderer.o COpenGLNormalMapRenderer.cpp
+CNullDriver.cpp: In constructor 'irr::v
+ideo::CNullDriver::CNullDriver(irr::io:
+:IFileSystem*, const irr::core::dimensi
+on2d<unsigned int>&)':
+CNullDriver.cpp:192:15: warning: 'void*
+ memset(void*, int, size_t)' clearing a
+n object of non-trivial type 'struct ir
+r::video::SExposedVideoData'; use assig
+nment or value-initialization instead [
+-Wclass-memaccess]
+  192 |         memset(&ExposedData, 0,
+ sizeof(ExposedData));
+      |         ~~~~~~^~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../include/IVi
+deoDriver.h:20,
+                 from CNullDriver.h:8,
+                 from CNullDriver.cpp:5
+:
+../../include/SExposedVideoData.h:25:8:
+ note: 'struct irr::video::SExposedVide
+oData' declared here
+   25 | struct SExposedVideoData
+      |        ^~~~~~~~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLParallaxMapRenderer.o COpenGLParallaxMapRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLShaderMaterialRenderer.o COpenGLShaderMaterialRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLSLMaterialRenderer.o COpenGLSLMaterialRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COpenGLExtensionHandler.o COpenGLExtensionHandler.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9Driver.o CD3D9Driver.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9HLSLMaterialRenderer.o CD3D9HLSLMaterialRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9NormalMapRenderer.o CD3D9NormalMapRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9ParallaxMapRenderer.o CD3D9ParallaxMapRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9ShaderMaterialRenderer.o CD3D9ShaderMaterialRenderer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CD3D9Texture.o CD3D9Texture.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGLXManager.o CGLXManager.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CWGLManager.o CWGLManager.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CColorConverter.o CColorConverter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImage.o CImage.cpp
+CColorConverter.cpp: In static member f
+unction 'static void irr::video::CColor
+Converter::convert_viaFormat(const void
+*, irr::video::ECOLOR_FORMAT, irr::s32,
+ void*, irr::video::ECOLOR_FORMAT)':
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  648 |                         switch 
+(dF)
+      |                                
+^
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CColorConverter.cpp:648:32: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  669 |                         switch 
+(dF)
+      |                                
+^
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CColorConverter.cpp:669:32: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  690 |                         switch 
+(dF)
+      |                                
+^
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CColorConverter.cpp:690:32: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  711 |                         switch 
+(dF)
+      |                                
+^
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CColorConverter.cpp:711:32: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  645 |         switch (sF)
+      |                ^
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CColorConverter.cpp:645:16: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderBMP.o CImageLoaderBMP.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderDDS.o CImageLoaderDDS.cpp
+CWGLManager.cpp: In member function 'vi
+rtual void irr::video::CWGLManager::ter
+minate()':
+CWGLManager.cpp:319:23: warning: 'void*
+ memset(void*, int, size_t)' clearing a
+n object of non-trivial type 'struct ir
+r::video::SExposedVideoData'; use assig
+nment or value-initialization instead [
+-Wclass-memaccess]
+  319 |                 memset(&Primary
+Context, 0, sizeof(PrimaryContext));
+      |                 ~~~~~~^~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from CWGLManager.h:13,
+                 from CWGLManager.cpp:5
+:
+../../include/SExposedVideoData.h:25:8:
+ note: 'struct irr::video::SExposedVide
+oData' declared here
+   25 | struct SExposedVideoData
+      |        ^~~~~~~~~~~~~~~~~
+CWGLManager.cpp:320:15: warning: 'void*
+ memset(void*, int, size_t)' clearing a
+n object of non-trivial type 'struct ir
+r::video::SExposedVideoData'; use assig
+nment or value-initialization instead [
+-Wclass-memaccess]
+  320 |         memset(&CurrentContext,
+ 0, sizeof(CurrentContext));
+      |         ~~~~~~^~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../include/SExposedVideoData.h:25:8:
+ note: 'struct irr::video::SExposedVide
+oData' declared here
+   25 | struct SExposedVideoData
+      |        ^~~~~~~~~~~~~~~~~
+CImage.cpp: In member function 'virtual
+ void irr::video::CImage::setPixel(irr:
+:u32, irr::u32, const irr::video::SColo
+r&, bool)':
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_DXT1' not handled in switch 
+[-Wswitch]
+   55 |         switch(Format)
+      |               ^
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_DXT2' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_DXT3' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_DXT4' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_DXT5' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC_RGB2' not handled in s
+witch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC_ARGB2' not handled in 
+switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC_RGB4' not handled in s
+witch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC_ARGB4' not handled in 
+switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC2_ARGB2' not handled in
+ switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_PVRTC2_ARGB4' not handled in
+ switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_ETC1' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_ETC2_RGB' not handled in swi
+tch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_ETC2_ARGB' not handled in sw
+itch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R16F' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_G16R16F' not handled in swit
+ch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_A16B16G16R16F' not handled i
+n switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R32F' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_G32R32F' not handled in swit
+ch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_A32B32G32R32F' not handled i
+n switch [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R8' not handled in switch [-
+Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R8G8' not handled in switch 
+[-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R16' not handled in switch [
+-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_R16G16' not handled in switc
+h [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_D16' not handled in switch [
+-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_D32' not handled in switch [
+-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_D24S8' not handled in switch
+ [-Wswitch]
+CImage.cpp:55:15: warning: enumeration 
+value 'ECF_UNKNOWN' not handled in swit
+ch [-Wswitch]
+CImage.cpp: In member function 'virtual
+ irr::video::SColor irr::video::CImage:
+:getPixel(irr::u32, irr::u32) const':
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_DXT1' not handled in switch
+ [-Wswitch]
+  102 |         switch(Format)
+      |               ^
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_DXT2' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_DXT3' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_DXT4' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_DXT5' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC_RGB2' not handled in 
+switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC_ARGB2' not handled in
+ switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC_RGB4' not handled in 
+switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC_ARGB4' not handled in
+ switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC2_ARGB2' not handled i
+n switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_PVRTC2_ARGB4' not handled i
+n switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_ETC1' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_ETC2_RGB' not handled in sw
+itch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_ETC2_ARGB' not handled in s
+witch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R16F' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_G16R16F' not handled in swi
+tch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_A16B16G16R16F' not handled 
+in switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R32F' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_G32R32F' not handled in swi
+tch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_A32B32G32R32F' not handled 
+in switch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R8' not handled in switch [
+-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R8G8' not handled in switch
+ [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R16' not handled in switch 
+[-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_R16G16' not handled in swit
+ch [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_D16' not handled in switch 
+[-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_D32' not handled in switch 
+[-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_D24S8' not handled in switc
+h [-Wswitch]
+CImage.cpp:102:15: warning: enumeration
+ value 'ECF_UNKNOWN' not handled in swi
+tch [-Wswitch]
+In file included from CImage.cpp:8:
+CBlit.h: At global scope:
+CBlit.h:1379:13: warning: 'void irr::dr
+awLine(video::IImage*, const core::vect
+or2d<int>&, const core::vector2d<int>&,
+ const video::SColor&)' defined but not
+ used [-Wunused-function]
+ 1379 | static void drawLine(video::IIm
+age* img, const core::position2d<s32>& 
+from,
+      |             ^~~~~~~~
+CBlit.h:1371:13: warning: 'void irr::dr
+awRectangle(video::IImage*, const core:
+:rect<int>&, const video::SColor&)' def
+ined but not used [-Wunused-function]
+ 1371 | static void drawRectangle(video
+::IImage* img, const core::rect<s32>& r
+ect, const video::SColor &color)
+      |             ^~~~~~~~~~~~~
+CBlit.h:1320:12: warning: 'irr::s32 irr
+::StretchBlit(eBlitter, video::IImage*,
+ const core::rect<int>*, const core::re
+ct<int>*, video::IImage*, u32)' defined
+ but not used [-Wunused-function]
+ 1320 | static s32 StretchBlit(eBlitter
+ operation,
+      |            ^~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderJPG.o CImageLoaderJPG.cpp
+CImageLoaderDDS.cpp: In member function
+ 'virtual irr::video::IImage* irr::vide
+o::CImageLoaderDDS::loadImage(irr::io::
+IReadFile*) const':
+CImageLoaderDDS.cpp:810:31: warning: en
+umeration value 'DDS_PF_ARGB8888' not h
+andled in switch [-Wswitch]
+  810 |                         switch(
+pixelFormat)
+      |                               ^
+CImageLoaderDDS.cpp:810:31: warning: en
+umeration value 'DDS_PF_UNKNOWN' not ha
+ndled in switch [-Wswitch]
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderPCX.o CImageLoaderPCX.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderPNG.o CImageLoaderPNG.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderPSD.o CImageLoaderPSD.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderPVR.o CImageLoaderPVR.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderTGA.o CImageLoaderTGA.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderPPM.o CImageLoaderPPM.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderWAL.o CImageLoaderWAL.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageLoaderRGB.o CImageLoaderRGB.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterBMP.o CImageWriterBMP.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterJPG.o CImageWriterJPG.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterPCX.o CImageWriterPCX.cpp
+CImageWriterBMP.cpp: In member function
+ 'virtual bool irr::video::CImageWriter
+BMP::writeImage(irr::io::IWriteFile*, i
+rr::video::IImage*, irr::u32) const':
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_DXT1' not handled i
+n switch [-Wswitch]
+   65 |         switch(image->getColorF
+ormat())
+      |               ^
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_DXT2' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_DXT3' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_DXT4' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_DXT5' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC_RGB2' not han
+dled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC_ARGB2' not ha
+ndled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC_RGB4' not han
+dled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC_ARGB4' not ha
+ndled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC2_ARGB2' not h
+andled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_PVRTC2_ARGB4' not h
+andled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_ETC1' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_ETC2_RGB' not handl
+ed in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_ETC2_ARGB' not hand
+led in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R16F' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_G16R16F' not handle
+d in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_A16B16G16R16F' not 
+handled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R32F' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_G32R32F' not handle
+d in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_A32B32G32R32F' not 
+handled in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R8' not handled in 
+switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R8G8' not handled i
+n switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R16' not handled in
+ switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_R16G16' not handled
+ in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_D16' not handled in
+ switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_D32' not handled in
+ switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_D24S8' not handled 
+in switch [-Wswitch]
+CImageWriterBMP.cpp:65:15: warning: enu
+meration value 'ECF_UNKNOWN' not handle
+d in switch [-Wswitch]
+CImageWriterJPG.cpp: In function 'bool 
+irr::video::writeJPEGFile(irr::io::IWri
+teFile*, IImage*, irr::u32)':
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  110 |         switch( image->getColor
+Format () )
+      |               ^
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CImageWriterJPG.cpp:110:15: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterPNG.o CImageWriterPNG.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterPPM.o CImageWriterPPM.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterPSD.o CImageWriterPSD.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CImageWriterTGA.o CImageWriterTGA.cpp
+CImageWriterPNG.cpp: In member function
+ 'virtual bool irr::video::CImageWriter
+PNG::writeImage(irr::io::IWriteFile*, i
+rr::video::IImage*, irr::u32) const':
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_DXT1' not handled 
+in switch [-Wswitch]
+  150 |         switch(image->getColorF
+ormat())
+      |               ^
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_DXT2' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_DXT3' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_DXT4' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_DXT5' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC_RGB2' not ha
+ndled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC_ARGB2' not h
+andled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC_RGB4' not ha
+ndled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC_ARGB4' not h
+andled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC2_ARGB2' not 
+handled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_PVRTC2_ARGB4' not 
+handled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_ETC1' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_ETC2_RGB' not hand
+led in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_ETC2_ARGB' not han
+dled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R16F' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_G16R16F' not handl
+ed in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_A16B16G16R16F' not
+ handled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R32F' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_G32R32F' not handl
+ed in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_A32B32G32R32F' not
+ handled in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R8' not handled in
+ switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R8G8' not handled 
+in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R16' not handled i
+n switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_R16G16' not handle
+d in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_D16' not handled i
+n switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_D32' not handled i
+n switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_D24S8' not handled
+ in switch [-Wswitch]
+CImageWriterPNG.cpp:150:15: warning: en
+umeration value 'ECF_UNKNOWN' not handl
+ed in switch [-Wswitch]
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSoftwareDriver.o CSoftwareDriver.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSoftwareTexture.o CSoftwareTexture.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRFlat.o CTRFlat.cpp
+CImageWriterTGA.cpp: In member function
+ 'virtual bool irr::video::CImageWriter
+TGA::writeImage(irr::io::IWriteFile*, i
+rr::video::IImage*, irr::u32) const':
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_DXT1' not handled i
+n switch [-Wswitch]
+   61 |         switch(image->getColorF
+ormat())
+      |               ^
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_DXT2' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_DXT3' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_DXT4' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_DXT5' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC_RGB2' not han
+dled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC_ARGB2' not ha
+ndled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC_RGB4' not han
+dled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC_ARGB4' not ha
+ndled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC2_ARGB2' not h
+andled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_PVRTC2_ARGB4' not h
+andled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_ETC1' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_ETC2_RGB' not handl
+ed in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_ETC2_ARGB' not hand
+led in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R16F' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_G16R16F' not handle
+d in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_A16B16G16R16F' not 
+handled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R32F' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_G32R32F' not handle
+d in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_A32B32G32R32F' not 
+handled in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R8' not handled in 
+switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R8G8' not handled i
+n switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R16' not handled in
+ switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_R16G16' not handled
+ in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_D16' not handled in
+ switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_D32' not handled in
+ switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_D24S8' not handled 
+in switch [-Wswitch]
+CImageWriterTGA.cpp:61:15: warning: enu
+meration value 'ECF_UNKNOWN' not handle
+d in switch [-Wswitch]
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRFlatWire.o CTRFlatWire.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRGouraud.o CTRGouraud.cpp
+In file included from CSoftwareDriver.c
+pp:11:
+CBlit.h:1320:12: warning: 'irr::s32 irr
+::StretchBlit(eBlitter, video::IImage*,
+ const core::rect<int>*, const core::re
+ct<int>*, video::IImage*, u32)' defined
+ but not used [-Wunused-function]
+ 1320 | static s32 StretchBlit(eBlitter
+ operation,
+      |            ^~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRGouraudWire.o CTRGouraudWire.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRNormalMap.o CTRNormalMap.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRStencilShadow.o CTRStencilShadow.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureFlat.o CTRTextureFlat.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureFlatWire.o CTRTextureFlatWire.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraud.o CTRTextureGouraud.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudAdd.o CTRTextureGouraudAdd.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudNoZ.o CTRTextureGouraudNoZ.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudWire.o CTRTextureGouraudWire.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CZBuffer.o CZBuffer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudVertexAlpha2.o CTRTextureGouraudVertexAlpha2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudNoZ2.o CTRTextureGouraudNoZ2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureLightMap2_M2.o CTRTextureLightMap2_M2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureLightMap2_M4.o CTRTextureLightMap2_M4.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureLightMap2_M1.o CTRTextureLightMap2_M1.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSoftwareDriver2.o CSoftwareDriver2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CSoftwareTexture2.o CSoftwareTexture2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraud2.o CTRTextureGouraud2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRGouraud2.o CTRGouraud2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRGouraudAlpha2.o CTRGouraudAlpha2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRGouraudAlphaNoZ2.o CTRGouraudAlphaNoZ2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureDetailMap2.o CTRTextureDetailMap2.cpp
+CSoftwareDriver2.cpp: In member functio
+n 'virtual void irr::video::CBurningVid
+eoDriver::draw2DRectangle(const irr::co
+re::rect<int>&, irr::video::SColor, irr
+::video::SColor, irr::video::SColor, ir
+r::video::SColor, const irr::core::rect
+<int>*)':
+CSoftwareDriver2.cpp:2101:24: warning: 
+'void* memcpy(void*, const void*, size_
+t)' writing to an object of type 'struc
+t irr::video::s4DVertex' with no trivia
+l copy-assignment; use copy-assignment 
+or copy-initialization instead [-Wclass
+-memaccess]
+ 2101 |                 memcpy ( Curren
+tOut.data + 0, face[0], sizeof ( s4DVer
+tex ) * 2 );
+      |                 ~~~~~~~^~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+In file included from IDepthBuffer.h:10
+,
+                 from CDepthBuffer.h:8,
+                 from IBurningShader.h:
+14,
+                 from CSoftwareDriver2.
+h:9,
+                 from CSoftwareDriver2.
+cpp:6:
+S4DVertex.h:448:8: note: 'struct irr::v
+ideo::s4DVertex' declared here
+  448 | struct s4DVertex
+      |        ^~~~~~~~~
+CSoftwareDriver2.cpp:2102:24: warning: 
+'void* memcpy(void*, const void*, size_
+t)' writing to an object of type 'struc
+t irr::video::s4DVertex' with no trivia
+l copy-assignment; use copy-assignment 
+or copy-initialization instead [-Wclass
+-memaccess]
+ 2102 |                 memcpy ( Curren
+tOut.data + 2, face[1], sizeof ( s4DVer
+tex ) * 2 );
+      |                 ~~~~~~~^~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+S4DVertex.h:448:8: note: 'struct irr::v
+ideo::s4DVertex' declared here
+  448 | struct s4DVertex
+      |        ^~~~~~~~~
+CSoftwareDriver2.cpp:2103:24: warning: 
+'void* memcpy(void*, const void*, size_
+t)' writing to an object of type 'struc
+t irr::video::s4DVertex' with no trivia
+l copy-assignment; use copy-assignment 
+or copy-initialization instead [-Wclass
+-memaccess]
+ 2103 |                 memcpy ( Curren
+tOut.data + 4, face[2], sizeof ( s4DVer
+tex ) * 2 );
+      |                 ~~~~~~~^~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+S4DVertex.h:448:8: note: 'struct irr::v
+ideo::s4DVertex' declared here
+  448 | struct s4DVertex
+      |        ^~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudAdd2.o CTRTextureGouraudAdd2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudAddNoZ2.o CTRTextureGouraudAddNoZ2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureWire2.o CTRTextureWire2.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureLightMap2_Add.o CTRTextureLightMap2_Add.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureLightMapGouraud2_M4.o CTRTextureLightMapGouraud2_M4.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o IBurningShader.o IBurningShader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureBlend.o CTRTextureBlend.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudAlpha.o CTRTextureGouraudAlpha.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTRTextureGouraudAlphaNoZ.o CTRTextureGouraudAlphaNoZ.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDepthBuffer.o CDepthBuffer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CBurningShader_Raster_Reference.o CBurningShader_Raster_Reference.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CFileList.o CFileList.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CFileSystem.o CFileSystem.cpp
+CBurningShader_Raster_Reference.cpp: In
+ member function 'void irr::video::CBur
+ningShader_Raster_Reference::scanline()
+':
+CBurningShader_Raster_Reference.cpp:781
+:21: warning: variable 'condition' set 
+but not used [-Wunused-but-set-variable
+]
+  781 |                 u32 condition;
+      |                     ^~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CLimitReadFile.o CLimitReadFile.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMemoryFile.o CMemoryFile.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CReadFile.o CReadFile.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CWriteFile.o CWriteFile.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CXMLReader.o CXMLReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CXMLWriter.o CXMLWriter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CWADReader.o CWADReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CZipReader.o CZipReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CPakReader.o CPakReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CNPKReader.o CNPKReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CTarReader.o CTarReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CMountPointReader.o CMountPointReader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o irrXML.o irrXML.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CAttributes.o CAttributes.cpp
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o lzma/LzmaDec.o lzma/LzmaDec.c
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceSDL.o CIrrDeviceSDL.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceLinux.o CIrrDeviceLinux.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceConsole.o CIrrDeviceConsole.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceStub.o CIrrDeviceStub.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceWin32.o CIrrDeviceWin32.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CIrrDeviceFB.o CIrrDeviceFB.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CLogger.o CLogger.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o COSOperator.o COSOperator.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o Irrlicht.o Irrlicht.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o os.o os.cpp
+CIrrDeviceWin32.cpp:691:13: warning: '{
+anonymous}::SEnvMapper* getEnvMapperFro
+mHWnd(HWND)' defined but not used [-Wun
+used-function]
+  691 | SEnvMapper* getEnvMapperFromHWn
+d(HWND hWnd)
+      |             ^~~~~~~~~~~~~~~~~~~
+~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o leakHunter.o leakHunter.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CProfiler.o CProfiler.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o utf8.o utf8.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIButton.o CGUIButton.cpp
+utf8.cpp:348:13: warning: 'void irr::co
+re::PHYSFS_utf8FromUcs4(const irr::u32*
+, char*, irr::u64)' defined but not use
+d [-Wunused-function]
+  348 | static void PHYSFS_utf8FromUcs4
+(const u32 *src, char *dst, u64 len)
+      |             ^~~~~~~~~~~~~~~~~~~
+utf8.cpp:219:13: warning: 'void irr::co
+re::PHYSFS_utf8ToUcs4(const char*, irr:
+:u32*, irr::u64)' defined but not used 
+[-Wunused-function]
+  219 | static void PHYSFS_utf8ToUcs4(c
+onst char *src, u32 *dst, u64 len)
+      |             ^~~~~~~~~~~~~~~~~
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUICheckBox.o CGUICheckBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIComboBox.o CGUIComboBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIContextMenu.o CGUIContextMenu.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIEditBox.o CGUIEditBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIEnvironment.o CGUIEnvironment.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIFileOpenDialog.o CGUIFileOpenDialog.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIFont.o CGUIFont.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIImage.o CGUIImage.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIInOutFader.o CGUIInOutFader.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIListBox.o CGUIListBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIMenu.o CGUIMenu.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIMeshViewer.o CGUIMeshViewer.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIMessageBox.o CGUIMessageBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIModalScreen.o CGUIModalScreen.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIScrollBar.o CGUIScrollBar.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUISpinBox.o CGUISpinBox.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUISkin.o CGUISkin.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIStaticText.o CGUIStaticText.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUITabControl.o CGUITabControl.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUITable.o CGUITable.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIToolBar.o CGUIToolBar.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIWindow.o CGUIWindow.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIColorSelectDialog.o CGUIColorSelectDialog.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CDefaultGUIElementFactory.o CDefaultGUIElementFactory.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUISpriteBank.o CGUISpriteBank.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIImageList.o CGUIImageList.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUITreeView.o CGUITreeView.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o CGUIProfiler.o CGUIProfiler.cpp
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/adler32.o zlib/adler32.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/compress.o zlib/compress.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/crc32.o zlib/crc32.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/deflate.o zlib/deflate.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/inffast.o zlib/inffast.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/inflate.o zlib/inflate.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/inftrees.o zlib/inftrees.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/trees.o zlib/trees.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/uncompr.o zlib/uncompr.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o zlib/zutil.o zlib/zutil.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcapimin.o jpeglib/jcapimin.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcapistd.o jpeglib/jcapistd.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jccoefct.o jpeglib/jccoefct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jccolor.o jpeglib/jccolor.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcdctmgr.o jpeglib/jcdctmgr.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jchuff.o jpeglib/jchuff.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcinit.o jpeglib/jcinit.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcmainct.o jpeglib/jcmainct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcmarker.o jpeglib/jcmarker.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcmaster.o jpeglib/jcmaster.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcomapi.o jpeglib/jcomapi.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcparam.o jpeglib/jcparam.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcprepct.o jpeglib/jcprepct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcsample.o jpeglib/jcsample.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jctrans.o jpeglib/jctrans.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdapimin.o jpeglib/jdapimin.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdapistd.o jpeglib/jdapistd.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdatadst.o jpeglib/jdatadst.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdatasrc.o jpeglib/jdatasrc.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdcoefct.o jpeglib/jdcoefct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdcolor.o jpeglib/jdcolor.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jddctmgr.o jpeglib/jddctmgr.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdhuff.o jpeglib/jdhuff.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdinput.o jpeglib/jdinput.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdmainct.o jpeglib/jdmainct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdmarker.o jpeglib/jdmarker.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdmaster.o jpeglib/jdmaster.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdmerge.o jpeglib/jdmerge.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdpostct.o jpeglib/jdpostct.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdsample.o jpeglib/jdsample.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdtrans.o jpeglib/jdtrans.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jerror.o jpeglib/jerror.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jfdctflt.o jpeglib/jfdctflt.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jfdctfst.o jpeglib/jfdctfst.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jfdctint.o jpeglib/jfdctint.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jidctflt.o jpeglib/jidctflt.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jidctfst.o jpeglib/jidctfst.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jidctint.o jpeglib/jidctint.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jmemmgr.o jpeglib/jmemmgr.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jmemnobs.o jpeglib/jmemnobs.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jquant1.o jpeglib/jquant1.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jquant2.o jpeglib/jquant2.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jutils.o jpeglib/jutils.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jcarith.o jpeglib/jcarith.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jdarith.o jpeglib/jdarith.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o jpeglib/jaricom.o jpeglib/jaricom.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/png.o libpng/png.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngerror.o libpng/pngerror.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngget.o libpng/pngget.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngmem.o libpng/pngmem.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngpread.o libpng/pngpread.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngread.o libpng/pngread.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngrio.o libpng/pngrio.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngrtran.o libpng/pngrtran.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngrutil.o libpng/pngrutil.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngset.o libpng/pngset.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngtrans.o libpng/pngtrans.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngwio.o libpng/pngwio.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngwrite.o libpng/pngwrite.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngwtran.o libpng/pngwtran.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o libpng/pngwutil.o libpng/pngwutil.c
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/aescrypt.o aesGladman/aescrypt.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/aeskey.o aesGladman/aeskey.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/aestab.o aesGladman/aestab.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/fileenc.o aesGladman/fileenc.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/hmac.o aesGladman/hmac.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/prng.o aesGladman/prng.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/pwd2key.o aesGladman/pwd2key.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/sha1.o aesGladman/sha1.cpp
+g++ -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o aesGladman/sha2.o aesGladman/sha2.cpp
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/blocksort.o bzip2/blocksort.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/huffman.o bzip2/huffman.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/crctable.o bzip2/crctable.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/randtable.o bzip2/randtable.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/bzcompress.o bzip2/bzcompress.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/decompress.o bzip2/decompress.c
+gcc -O3 -fexpensive-optimizations -DPNG_THREAD_UNSAFE_OK -DPNG_NO_MMX_CODE -DPNG_NO_MNG_FEATURES -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL  -c -o bzip2/bzlib.o bzip2/bzlib.c
+g++ -I../../include -Izlib -Ijpeglib -Ilibpng -DIRRLICHT_EXPORTS=1 -DNO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ -DNO_IRR_COMPILE_WITH_DIRECT3D_9_ -DIRR_COMPILE_WITH_DX9_DEV_PACK -D__GNUWIN32__ -D_WIN32 -DWIN32 -D_WINDOWS -D_MBCS -D_USRDLL -Wall -pipe -fno-exceptions -fno-rtti -fstrict-aliasing -g -D_DEBUG -shared -o ../../bin/Win32-gcc/Irrlicht.dll CBSPMeshFileLoader.o CMD2MeshFileLoader.o CMD3MeshFileLoader.o CMS3DMeshFileLoader.o CB3DMeshFileLoader.o C3DSMeshFileLoader.o COgreMeshFileLoader.o COBJMeshFileLoader.o CColladaFileLoader.o CCSMLoader.o CDMFLoader.o CLMTSMeshFileLoader.o CMY3DMeshFileLoader.o COCTLoader.o CXMeshFileLoader.o CIrrMeshFileLoader.o CSTLMeshFileLoader.o CLWOMeshFileLoader.o CPLYMeshFileLoader.o CSMFMeshFileLoader.o CMeshTextureLoader.o CColladaMeshWriter.o CIrrMeshWriter.o CSTLMeshWriter.o COBJMeshWriter.o CPLYMeshWriter.o CB3DMeshWriter.o CSkinnedMesh.o CBoneSceneNode.o CMeshSceneNode.o CAnimatedMeshSceneNode.o CAnimatedMeshMD2.o CAnimatedMeshMD3.o CQ3LevelMesh.o CQuake3ShaderSceneNode.o CAnimatedMeshHalfLife.o CBillboardSceneNode.o CCameraSceneNode.o CDummyTransformationSceneNode.o CEmptySceneNode.o CGeometryCreator.o CLightSceneNode.o CMeshManipulator.o CMetaTriangleSelector.o COctreeSceneNode.o COctreeTriangleSelector.o CSceneCollisionManager.o CSceneManager.o CShadowVolumeSceneNode.o CSkyBoxSceneNode.o CSkyDomeSceneNode.o CTerrainSceneNode.o CTerrainTriangleSelector.o CVolumeLightSceneNode.o CCubeSceneNode.o CSphereSceneNode.o CTextSceneNode.o CTriangleBBSelector.o CTriangleSelector.o CWaterSurfaceSceneNode.o CMeshCache.o CDefaultSceneNodeAnimatorFactory.o CDefaultSceneNodeFactory.o CSceneLoaderIrr.o CParticleAnimatedMeshSceneNodeEmitter.o CParticleBoxEmitter.o CParticleCylinderEmitter.o CParticleMeshEmitter.o CParticlePointEmitter.o CParticleRingEmitter.o CParticleSphereEmitter.o CParticleAttractionAffector.o CParticleFadeOutAffector.o CParticleGravityAffector.o CParticleRotationAffector.o CParticleSystemSceneNode.o CParticleScaleAffector.o CSceneNodeAnimatorCameraFPS.o CSceneNodeAnimatorCameraMaya.o CSceneNodeAnimatorCollisionResponse.o CSceneNodeAnimatorDelete.o CSceneNodeAnimatorFlyCircle.o CSceneNodeAnimatorFlyStraight.o CSceneNodeAnimatorFollowSpline.o CSceneNodeAnimatorRotation.o CSceneNodeAnimatorTexture.o CVideoModeList.o CFPSCounter.o CNullDriver.o COpenGLCacheHandler.o COpenGLDriver.o COpenGLNormalMapRenderer.o COpenGLParallaxMapRenderer.o COpenGLShaderMaterialRenderer.o COpenGLSLMaterialRenderer.o COpenGLExtensionHandler.o CD3D9Driver.o CD3D9HLSLMaterialRenderer.o CD3D9NormalMapRenderer.o CD3D9ParallaxMapRenderer.o CD3D9ShaderMaterialRenderer.o CD3D9Texture.o CGLXManager.o CWGLManager.o CColorConverter.o CImage.o CImageLoaderBMP.o CImageLoaderDDS.o CImageLoaderJPG.o CImageLoaderPCX.o CImageLoaderPNG.o CImageLoaderPSD.o CImageLoaderPVR.o CImageLoaderTGA.o CImageLoaderPPM.o CImageLoaderWAL.o CImageLoaderRGB.o CImageWriterBMP.o CImageWriterJPG.o CImageWriterPCX.o CImageWriterPNG.o CImageWriterPPM.o CImageWriterPSD.o CImageWriterTGA.o CSoftwareDriver.o CSoftwareTexture.o CTRFlat.o CTRFlatWire.o CTRGouraud.o CTRGouraudWire.o CTRNormalMap.o CTRStencilShadow.o CTRTextureFlat.o CTRTextureFlatWire.o CTRTextureGouraud.o CTRTextureGouraudAdd.o CTRTextureGouraudNoZ.o CTRTextureGouraudWire.o CZBuffer.o CTRTextureGouraudVertexAlpha2.o CTRTextureGouraudNoZ2.o CTRTextureLightMap2_M2.o CTRTextureLightMap2_M4.o CTRTextureLightMap2_M1.o CSoftwareDriver2.o CSoftwareTexture2.o CTRTextureGouraud2.o CTRGouraud2.o CTRGouraudAlpha2.o CTRGouraudAlphaNoZ2.o CTRTextureDetailMap2.o CTRTextureGouraudAdd2.o CTRTextureGouraudAddNoZ2.o CTRTextureWire2.o CTRTextureLightMap2_Add.o CTRTextureLightMapGouraud2_M4.o IBurningShader.o CTRTextureBlend.o CTRTextureGouraudAlpha.o CTRTextureGouraudAlphaNoZ.o CDepthBuffer.o CBurningShader_Raster_Reference.o CFileList.o CFileSystem.o CLimitReadFile.o CMemoryFile.o CReadFile.o CWriteFile.o CXMLReader.o CXMLWriter.o CWADReader.o CZipReader.o CPakReader.o CNPKReader.o CTarReader.o CMountPointReader.o irrXML.o CAttributes.o lzma/LzmaDec.o CIrrDeviceSDL.o CIrrDeviceLinux.o CIrrDeviceConsole.o CIrrDeviceStub.o CIrrDeviceWin32.o CIrrDeviceFB.o CLogger.o COSOperator.o Irrlicht.o os.o leakHunter.o CProfiler.o utf8.o CGUIButton.o CGUICheckBox.o CGUIComboBox.o CGUIContextMenu.o CGUIEditBox.o CGUIEnvironment.o CGUIFileOpenDialog.o CGUIFont.o CGUIImage.o CGUIInOutFader.o CGUIListBox.o CGUIMenu.o CGUIMeshViewer.o CGUIMessageBox.o CGUIModalScreen.o CGUIScrollBar.o CGUISpinBox.o CGUISkin.o CGUIStaticText.o CGUITabControl.o CGUITable.o CGUIToolBar.o CGUIWindow.o CGUIColorSelectDialog.o CDefaultGUIElementFactory.o CGUISpriteBank.o CGUIImageList.o CGUITreeView.o CGUIProfiler.o zlib/adler32.o zlib/compress.o zlib/crc32.o zlib/deflate.o zlib/inffast.o zlib/inflate.o zlib/inftrees.o zlib/trees.o zlib/uncompr.o zlib/zutil.o jpeglib/jcapimin.o jpeglib/jcapistd.o jpeglib/jccoefct.o jpeglib/jccolor.o jpeglib/jcdctmgr.o jpeglib/jchuff.o jpeglib/jcinit.o jpeglib/jcmainct.o jpeglib/jcmarker.o jpeglib/jcmaster.o jpeglib/jcomapi.o jpeglib/jcparam.o jpeglib/jcprepct.o jpeglib/jcsample.o jpeglib/jctrans.o jpeglib/jdapimin.o jpeglib/jdapistd.o jpeglib/jdatadst.o jpeglib/jdatasrc.o jpeglib/jdcoefct.o jpeglib/jdcolor.o jpeglib/jddctmgr.o jpeglib/jdhuff.o jpeglib/jdinput.o jpeglib/jdmainct.o jpeglib/jdmarker.o jpeglib/jdmaster.o jpeglib/jdmerge.o jpeglib/jdpostct.o jpeglib/jdsample.o jpeglib/jdtrans.o jpeglib/jerror.o jpeglib/jfdctflt.o jpeglib/jfdctfst.o jpeglib/jfdctint.o jpeglib/jidctflt.o jpeglib/jidctfst.o jpeglib/jidctint.o jpeglib/jmemmgr.o jpeglib/jmemnobs.o jpeglib/jquant1.o jpeglib/jquant2.o jpeglib/jutils.o jpeglib/jcarith.o jpeglib/jdarith.o jpeglib/jaricom.o libpng/png.o libpng/pngerror.o libpng/pngget.o libpng/pngmem.o libpng/pngpread.o libpng/pngread.o libpng/pngrio.o libpng/pngrtran.o libpng/pngrutil.o libpng/pngset.o libpng/pngtrans.o libpng/pngwio.o libpng/pngwrite.o libpng/pngwtran.o libpng/pngwutil.o aesGladman/aescrypt.o aesGladman/aeskey.o aesGladman/aestab.o aesGladman/fileenc.o aesGladman/hmac.o aesGladman/prng.o aesGladman/pwd2key.o aesGladman/sha1.o aesGladman/sha2.o bzip2/blocksort.o bzip2/huffman.o bzip2/crctable.o bzip2/randtable.o bzip2/bzcompress.o bzip2/decompress.o bzip2/bzlib.o -lgdi32 -lopengl32 -ld3dx9d -lwinmm -Wl,--add-stdcall-alias -Wl,--out-implib,../../lib/Win32-gcc/libIrrlicht.a
