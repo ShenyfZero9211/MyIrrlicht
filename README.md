@@ -41,16 +41,26 @@ mingw32-make win32
 ### 运行示例：音频可视化
 进入示例项目目录：
 ```bash
-cd projects/01.MyHelloWorld
+cd projects/SimpleAudioVisual
 mingw32-make all_win32
-# 成功后在 bin/Win32-gcc 下运行 01.MyHelloWorld.exe
+# 成功后在 bin/Win32-gcc 下运行 SimpleAudioVisual.exe
 ```
 
 ---
 
-## 🎨 视觉展示：Project 01 (Audio Visualizer)
-- **实时背景同步**：通过 WASAPI 捕获音频能量，并平滑映射到 HSB [0.4, 0.7] 色域。
-- **高速录制**：支持在可视化过程中同步录制 CD 品质的 WAV 音乐。
+## 🎨 工程图鉴 (Project Gallery)
+
+详见 [/projects](/projects) 目录下的各个实验。
+
+### 1. SimpleAudioVisual (音频频谱可视化)
+基于音频驱动的高表现力物理频谱可视化系统。
+
+- **核心算法**：采用非线性双曲正切 (`tanh`) 渲染量程映射，实现“软限幅”视觉，彻底解决动态触顶问题。
+- **高频补偿**：具备指数级高频权重调节（`HF_Tilt`），精准掌控频谱两端的能量表现。
+- **物理特效**：模拟真实重力感应的峰值（Peak）下坠物理模型。
+
+#### 视觉预览
+![SimpleAudioVisual Demo](projects/SimpleAudioVisual/demo.jpg)
 
 ---
 
