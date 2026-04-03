@@ -11,6 +11,17 @@
 
 #define REFTIMES_PER_SEC  10000000
 #define PCM_RING_SECONDS 16
+#define FFT_SIZE 2048
+
+typedef struct { float r, i; } Complex;
+static void fft(Complex *v, int n, Complex *tmp);
+int wasapi_get_recent_pcm(float* out_samples, int max_samples);
+int wasapi_read_pcm(float* out_samples, int max_samples);
+int wasapi_get_recent_pcm_rate();
+static float g_fft_smoothing[128] = {0};
+static float g_current_volume = 0;
+static float g_tilt_base = 4.5f;
+static float g_tilt_power = 1.2f;
 
 typedef struct {
     IMMDeviceEnumerator *pEnumerator;
@@ -33,6 +44,30 @@ typedef struct {
     CRITICAL_SECTION ringLock;
     BOOL ringLockReady;
 } WASAPI_State;
+
+// Forward FFt
+static void fft(Complex *v, int n, Complex *tmp) {
+    if (n > 1) {
+        int k, m = n >> 1;
+        for (k = 0; k < m; k++) {
+            tmp[k] = v[k << 1];
+            tmp[k + m] = v[(k << 1) + 1];
+        }
+        fft(tmp, m, v);
+        fft(tmp + m, m, v);
+        for (k = 0; k < m; k++) {
+            float arg = -2.0f * 3.14159265f * (float)k / (float)n;
+            Complex w = { cosf(arg), sinf(arg) };
+            Complex e = tmp[k];
+            Complex o = tmp[k + m];
+            Complex wo = { w.r * o.r - w.i * o.i, w.r * o.i + w.i * o.r };
+            v[k].r = e.r + wo.r;
+            v[k].i = e.i + wo.i;
+            v[k + m].r = e.r - wo.r;
+            v[k + m].i = e.i - wo.i;
+        }
+    }
+}
 
 static WASAPI_State g_state = {0};
 
@@ -165,6 +200,108 @@ __declspec(dllexport) void wasapi_get_bands(float* l, float* m, float* h) {
     g_state.current_hi *= 0.88f;
 }
 
+__declspec(dllexport) float wasapi_get_volume() {
+    float v = g_current_volume;
+    g_current_volume *= 0.9f; 
+    return (v > 1.0f) ? 1.0f : v;
+}
+
+__declspec(dllexport) void wasapi_get_fft(float* bins, int nBoxes) {
+    if (!bins || nBoxes <= 0 || nBoxes > 128) return;
+    
+    float pcm[FFT_SIZE];
+    int count = wasapi_get_recent_pcm(pcm, FFT_SIZE);
+    if (count < FFT_SIZE) return;
+
+    // RMS Volume calculation
+    float sumSq = 0;
+    for(int i=0; i<FFT_SIZE; i++) sumSq += pcm[i]*pcm[i];
+    float rms = sqrtf(sumSq / FFT_SIZE) * 5.0f; // Scale up for visibility
+    g_current_volume = g_current_volume * 0.5f + rms * 0.5f;
+
+    Complex buf[FFT_SIZE], tmp[FFT_SIZE];
+    for (int i = 0; i < FFT_SIZE; i++) {
+        float window = 0.5f * (1.0f - cosf(2.0f * 3.14159265f * i / (FFT_SIZE - 1)));
+        buf[i].r = pcm[i] * window;
+        buf[i].i = 0;
+    }
+
+    fft(buf, FFT_SIZE, tmp);
+
+    // Logarithmic Banding Overhaul
+    float sample_rate = (float)wasapi_get_recent_pcm_rate();
+    if (sample_rate <= 0) sample_rate = 44100.0f;
+
+    // OCTAVE-UNIFORM DISTRIBUTION (MUSICAL SCALE)
+    float min_freq = 60.0f; // Raised to filter sub-bass mud
+    float max_freq = 18000.0f;
+    if (max_freq > sample_rate / 2.0f) max_freq = sample_rate / 2.1f;
+    float num_octaves = log2f(max_freq / min_freq);
+
+    for (int i = 0; i < nBoxes; i++) {
+        // Equal musical interval steps (Octaves)
+        float f_low = min_freq * powf(2.0f, (float)i * num_octaves / (float)nBoxes);
+        float f_high = min_freq * powf(2.0f, (float)(i + 1) * num_octaves / (float)nBoxes);
+        
+        float k_low = f_low * (float)FFT_SIZE / sample_rate;
+        float k_high = f_high * (float)FFT_SIZE / sample_rate;
+        if (k_high <= k_low) k_high = k_low + 1.0f;
+
+        float mag = 0;
+        float total_weight = 0;
+
+        int k_start = (int)k_low;
+        int k_end = (int)k_high;
+
+        for (int k = k_start; k <= k_end && k < FFT_SIZE / 2; k++) {
+            float w = 1.0f;
+            if (k == k_start) w *= (1.0f - (k_low - (float)k_start));
+            if (k == k_end) w *= (k_high - (float)k_end);
+            if (k_start == k_end) w = (k_high - k_low);
+
+            mag += sqrtf(buf[k].r * buf[k].r + buf[k].i * buf[k].i) * w;
+            total_weight += w;
+        }
+
+        if (total_weight > 0) mag /= total_weight;
+
+        // Apply spectral tilt for visual balance
+        float center_freq = (f_low + f_high) * 0.5f;
+        float tilt_boost = powf(center_freq / 200.0f, 0.95f); // Slightly steeper
+        mag *= tilt_boost;
+        
+        mag /= (float)FFT_SIZE; 
+        
+        // --- dB Scaling ---
+        float db = 20.0f * log10f(mag + 1e-7f);
+        
+        float freq_factor = (float)i / (float)nBoxes;
+        float db_floor = -60.0f - freq_factor * 10.0f; // Tighter floor
+        float db_ceil = -5.0f; // Added some headroom
+        
+        mag = (db - db_floor) / (db_ceil - db_floor);
+        if (mag < 0) mag = 0;
+        if (mag > 1.0f) mag = 1.0f;
+
+        // SENSITIVITY TILT: Balanced boost for high frequencies (Now dynamic)
+        float tilt = 1.0f + powf(freq_factor, g_tilt_power) * g_tilt_base; 
+        mag *= tilt; 
+
+        // Temporal smoothing
+        g_fft_smoothing[i] = g_fft_smoothing[i] * 0.35f + mag * 0.65f;
+    }
+
+    // NEW: SPATIAL SMOOTHING (Horizontal Filter)
+    for (int i = 0; i < nBoxes; i++) {
+        float prev = (i > 0) ? g_fft_smoothing[i - 1] : g_fft_smoothing[i];
+        float next = (i < nBoxes - 1) ? g_fft_smoothing[i + 1] : g_fft_smoothing[i];
+        
+        // 3-tap weighted average for smoother transitions
+        float smooth_mag = prev * 0.25f + g_fft_smoothing[i] * 0.5f + next * 0.25f;
+        bins[i] = (smooth_mag > 1.0f) ? 1.0f : smooth_mag;
+    }
+}
+
 __declspec(dllexport) int wasapi_read_pcm(float* out_samples, int max_samples) {
     int count, firstChunk, secondChunk;
     if (!out_samples || max_samples <= 0 || !g_state.pcmRing || !g_state.ringLockReady) {
@@ -230,8 +367,8 @@ __declspec(dllexport) void wasapi_stop() {
     if (!g_state.active) return;
     g_state.active = FALSE;
     if (g_state.hThread) {
-        // [SPEED OPTIMIZATION] 大幅缩减等待时间：由 500ms 压缩至 50ms
-        WaitForSingleObject(g_state.hThread, 50); 
+        // [SHUTDOWN LOCK] 增加等待时间从 50ms 至 200ms，确保线程有足够时间捕获退出信号
+        WaitForSingleObject(g_state.hThread, 200); 
         CloseHandle(g_state.hThread);
         g_state.hThread = NULL;
     }
@@ -272,4 +409,9 @@ __declspec(dllexport) void wasapi_stop() {
         g_state.ringLockReady = FALSE;
     }
     CoUninitialize();
+}
+
+__declspec(dllexport) void wasapi_set_config_v2(float base, float power) {
+    g_tilt_base = base;
+    g_tilt_power = power;
 }
