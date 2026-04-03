@@ -52,6 +52,8 @@ float g_Gain = 2.5f;
 int g_BarCount = 64;
 float g_HF_TiltBase = 4.5f;
 float g_HF_TiltPower = 1.2f;
+float g_PeakGravity = 0.22f; // Gravity for Peak fall
+float g_MaxHeight = 40.0f;  // Maximum allowed visual height
 
 std::string g_ConfigPath;
 FILETIME g_lastConfigWriteTime = {0, 0};
@@ -96,8 +98,11 @@ void loadSettings(const char* filename) {
         }
         else if (key == "HF_TiltBase") g_HF_TiltBase = std::stof(val);
         else if (key == "HF_TiltPower") g_HF_TiltPower = std::stof(val);
+        else if (key == "PeakGravity") g_PeakGravity = std::stof(val);
+        else if (key == "MaxHeight") g_MaxHeight = std::stof(val);
     }
-    std::cout << "Config Loaded: Mult=" << g_VisualMultiplier << ", Smooth=" << g_Smoothness << ", Gain=" << g_Gain << ", Bars=" << g_BarCount << std::endl;
+    std::cout << "Config Loaded: Mult=" << g_VisualMultiplier << ", Smooth=" << g_Smoothness << ", Gain=" << g_Gain 
+              << ", Bars=" << g_BarCount << ", MaxH=" << g_MaxHeight << ", PeakG=" << g_PeakGravity << std::endl;
 }
 
 bool checkConfigUpdate() {
@@ -332,43 +337,49 @@ int main() {
             bgColor = SColor(255, 5, 5, 8); // Very dark navy for maximum neon contrast
 
             for (int i = 0; i < g_BarCount; ++i) {
-                float targetHeight = 1.0f + fftBins[i] * g_VisualMultiplier * g_Gain;
+                float rawHeight = fftBins[i] * g_VisualMultiplier * g_Gain;
+                // RE-INTRODUCE HF_TILT: Apply exponential boost/attenuation to High Frequencies
+                float tilt = powf(g_HF_TiltBase, (float)i / g_BarCount * g_HF_TiltPower);
+                float tiltedHeight = rawHeight * tilt;
+
+                // NEW FORMULA with TILT: MaxHeight is the master visual scale
+                float targetHeight = 1.0f + (g_MaxHeight * tanhf(tiltedHeight / 15.0f));
+                
                 if (targetHeight > g_Bars[i].height) g_Bars[i].height = targetHeight;
                 else g_Bars[i].height = g_Bars[i].height * (1.0f - g_Smoothness) + targetHeight * g_Smoothness;
 
-                g_Bars[i].node->setScale(vector3df(g_Bars[i].node->getScale().X, g_Bars[i].height, 1.0f));
+                // Position Peak based on CALCULATED peakHeight
+                g_Bars[i].node->setScale(vector3df(g_Bars[i].node->getScale().X, g_Bars[i].height / 2.0f, 2.0f));
+                g_Bars[i].node->setPosition(vector3df(g_Bars[i].node->getPosition().X, g_Bars[i].height / 2.0f, 0));
                 
-                // DYNAMIC COLOR: ICE TRIGGER LOGIC (Now mapped to Diffuse)
-                float factor = g_Bars[i].height / 40.0f; 
+                // DYNAMIC COLOR: Synchronized with current MaxHeight
+                float factor = g_Bars[i].height / g_MaxHeight; 
                 if (factor > 1.0f) factor = 1.0f;
                 float s = 1.0f - factor * 0.95f;
                 float v = 0.35f + factor * 0.65f;
                 SColor dynamicColor = hsv2rgb(0.61f, s, v);
                 
-                // UPWARD GROWTH: Fix bottom at Y=0
-                float halfHeight = g_Bars[i].height / 2.0f;
-                g_Bars[i].node->setScale(vector3df(g_Bars[i].node->getScale().X, halfHeight, 2.0f));
-                g_Bars[i].node->setPosition(vector3df(g_Bars[i].node->getPosition().X, halfHeight, 0));
-                
                 g_Bars[i].node->getMaterial(0).DiffuseColor = dynamicColor;
                 g_Bars[i].node->getMaterial(0).AmbientColor = dynamicColor;
 
-                // Sync Peak Color & Position
+                // Sync Peak Color 
                 g_Bars[i].peak->getMaterial(0).DiffuseColor = SColor(255, 230, 245, 255);
-                g_Bars[i].peak->setPosition(vector3df(g_Bars[i].node->getPosition().X, g_Bars[i].height + 0.5f, 0));
 
+                // Peak Physics: Gravity & Decay
                 if (g_Bars[i].height > g_Bars[i].peakHeight) {
                     g_Bars[i].peakHeight = g_Bars[i].height;
                     g_Bars[i].peakVel = 0.0f;
                 } else {
-                    g_Bars[i].peakVel += 0.18f; // Gravity
+                    g_Bars[i].peakVel += g_PeakGravity; // Use dynamic gravity
                     g_Bars[i].peakHeight -= g_Bars[i].peakVel;
                     if (g_Bars[i].peakHeight < g_Bars[i].height) {
                         g_Bars[i].peakHeight = g_Bars[i].height;
                         g_Bars[i].peakVel = 0.0f;
                     }
                 }
-                g_Bars[i].peak->setPosition(vector3df(g_Bars[i].peak->getPosition().X, g_Bars[i].peakHeight + 0.5f, 25));
+                
+                // Position Peak based on CALCULATED peakHeight
+                g_Bars[i].peak->setPosition(vector3df(g_Bars[i].node->getPosition().X, g_Bars[i].peakHeight + 1.25f, 0));
             }
         }
 
