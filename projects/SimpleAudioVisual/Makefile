@@ -1,5 +1,5 @@
 # Irrlicht Audio Visualization Makefile
-Target := 01.MyHelloWorld
+Target := SimpleAudioVisual
 Sources := main.cpp
 
 # 指向 Irrlicht 根目录
